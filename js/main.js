@@ -42,7 +42,7 @@ function getWeatherData() {
   };
 
   fetch(
-    "http://api.weatherapi.com/v1/current.json?key=3278c408f5154f9fab7112324251111&q=London&aqi=no",
+    "https://api.weatherapi.com/v1/current.json?key=3278c408f5154f9fab7112324251111&q=London&aqi=no",
     requestOptions
   )
     .then((response) => response.json())
